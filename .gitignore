@@ -1,0 +1,66 @@
+# 不进仓库的东西
+
+# 游戏本体与解包产物（版权归 Madhead，绝不入库）
+*.apk
+*.xapk
+*.obb
+*.ipa
+mjwy*
+extracted/
+extracted_v243/
+*.so
+*.dex
+global-metadata.dat
+DummyDll/
+dump.cs
+script.json
+il2cpp.h
+
+# 美术与音视频资源
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.psd
+*.moc
+*.motion3.json
+*.model3.json
+*.skel
+*.atlas
+*.mp3
+*.wav
+*.ogg
+!docs/**/*.png
+
+# 加密/解包出来的数据表（体积大且有版权风险）
+analysis/
+wiki_parse/
+textassets/
+*.xlsx
+
+# 本地配置与密钥
+.env
+*.local
+hosts.txt
+cert/
+*.pem
+*.key
+*.p12
+*.jks
+
+# 运行时产物
+__pycache__/
+*.pyc
+.venv/
+venv/
+node_modules/
+server/data/*.db
+server/data/*.sqlite*
+logs/
+*.log
+
+# 编辑器
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
